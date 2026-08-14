@@ -482,8 +482,9 @@ a { color: inherit; }
 .formsec .eyebrow { color: var(--stone); }
 .formsec h2 { color: #fff; font-size: 30px; }
 .formsec .subline { color: rgba(255, 255, 255, 0.85); }
+.formsec .section-head { margin-left: auto; margin-right: auto; text-align: center; }
 .form-wrap {
-  margin-top: 28px;
+  margin: 28px auto 0;
   background: #fff;
   border-radius: 8px;
   padding: 10px;
