@@ -10,7 +10,7 @@
   /* ----------------------------------------------------------------------
      1. UTM / click-id capture and persistence
         Captured on any landing page and stored in sessionStorage so the
-        values survive the hop from landing.html -> thank-you.html.
+        values survive the hop from the landing page -> thank-you.html.
      ---------------------------------------------------------------------- */
   var TRACKED_KEYS = [
     "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term",
