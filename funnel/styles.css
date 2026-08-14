@@ -491,10 +491,16 @@ a { color: inherit; }
 }
 .form-wrap iframe {
   width: 100%;
+  /* Explicit pixel height — mobile Safari collapses iframes set to height:100%.
+     GHL's form_embed.js resizes this to the real form height once loaded. */
+  height: 900px;
   min-height: 820px;
   border: none;
   border-radius: 6px;
   display: block;
+}
+@media (min-width: 700px) {
+  .form-wrap iframe { height: 820px; }
 }
 .form-embed-placeholder {
   min-height: 500px;
