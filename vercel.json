@@ -1,0 +1,7 @@
+{
+  "redirects": [
+    { "source": "/funnel/landing.html", "destination": "/", "permanent": false },
+    { "source": "/funnel", "destination": "/", "permanent": false },
+    { "source": "/funnel/:path*", "destination": "/:path*", "permanent": false }
+  ]
+}
