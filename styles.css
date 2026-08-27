@@ -483,6 +483,33 @@ a { color: inherit; }
 .formsec h2 { color: #fff; font-size: 30px; }
 .formsec .subline { color: rgba(255, 255, 255, 0.85); }
 .formsec .section-head { margin-left: auto; margin-right: auto; text-align: center; }
+.form-reassure {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto 0;
+  max-width: 660px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+  text-align: center;
+}
+.form-reassure li {
+  position: relative;
+  padding-left: 24px;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+}
+.form-reassure li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--stone);
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+}
 .form-wrap {
   margin: 28px auto 0;
   background: #fff;
